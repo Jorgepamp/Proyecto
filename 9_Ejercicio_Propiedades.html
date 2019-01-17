@@ -25,6 +25,16 @@
             outline: none;
 
         }
+
+        .inputButton:hover {
+            background-color: #5a5a5a;
+            color: white;
+        }
+
+        .inputButton:active {
+            background-color: #5a5a5a;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
         }
     </style>
 </head>
@@ -44,11 +54,11 @@
     </div>
     <script>
         function otherURL() {
-            location.replace("https://www.redbubble.com/activity")
+            location.replace("https://www.redbubble.com/activity") // no vuelve a la página anterior
         }
 
         function otherURL1() {
-            location.assign("https://www.imdb.com/title/tt7929626/?ref_=ttfc_fc_tt")
+            location.assign("https://www.imdb.com/title/tt7929626/?ref_=ttfc_fc_tt") // si vuelve a la página anterior.
         }
     </script>
 
